@@ -1,0 +1,21 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Smooth transitions for page transitions */
+  .transition-group {
+    position: relative;
+  }
+  
+  .page {
+    position: absolute;
+    width: 100%;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .page-exit-active,
+  .page-enter-active {
+    opacity: 0;
+  }
+  
